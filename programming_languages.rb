@@ -14,11 +14,9 @@ def reformat_languages(languages)
     languages.each do |object,language|
         language.each do |type,in_or_com|
           new_hash[type][:style] << object
-          # p new_hash[key][:style]
-      binding.pry
         end 
     end 
-    # binding.pry
+    binding.pry
     new_hash    
   
   
@@ -60,32 +58,3 @@ def languages
   
   
 end 
-# binding.pry
-##########
-
-def top_level(languages)
-  new_hash = {} 
-    languages.each do |key,value|
-      value.collect do |key,value|
-        new_hash = { :key => :value}
-      end 
-    end
-    new_hash
-end 
-# binding.pry
-
-def second_level_type(type)
-  
-end 
-
-def second_level_style(style)
-  
-end 
-
-def push_language_style(lang_style)
-  
-end 
-
-# top_level(languages)
-
-  reformat_languages(languages)
