@@ -13,7 +13,7 @@ def reformat_languages(languages)
     end
     languages.each do |object,language|
         language.each do |type,in_or_com|
-          new_hash[type]
+          new_hash[type][:style] <<
           # p new_hash[key][:style]
       binding.pry
         end 
