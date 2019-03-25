@@ -7,7 +7,7 @@ def reformat_languages(languages)
     languages.each do |object,language|
       language.each do |type,in_or_com|
         in_or_com.each do |data1, data2|
-          new_hash[type] = { data1 => data2, 
+          new_hash[type] = { data1 => data2, :style 
         binding.pry
         end 
       end 
