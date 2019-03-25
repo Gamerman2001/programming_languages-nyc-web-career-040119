@@ -1,4 +1,4 @@
-require 'pry'
+
 
 def reformat_languages(languages)
   # your code here
@@ -16,9 +16,6 @@ def reformat_languages(languages)
           new_hash[type][:style] << object
         end 
     end 
-
     new_hash    
-  
-  
 end
 
