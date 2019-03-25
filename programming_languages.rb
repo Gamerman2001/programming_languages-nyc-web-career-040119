@@ -58,3 +58,4 @@ def languages
   
   
 end 
+reformat_languages(languages)
