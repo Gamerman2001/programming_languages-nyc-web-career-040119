@@ -13,11 +13,11 @@ def reformat_languages(languages)
       if key == :oo  
         value.each do |key,value|
           new_hash[key][:style].push(:oo)
-      binding.pry
+      # binding.pry
         end 
       end 
     end 
-    
+    binding.pry
     new_hash    
   
   
