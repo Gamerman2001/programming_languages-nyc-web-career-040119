@@ -10,7 +10,6 @@ def reformat_languages(languages)
       end 
     end
     languages.each do |key,value|
-      if key == :oo  
         value.each do |key,value|
           p new_hash[key][:style]
       binding.pry
