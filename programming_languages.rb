@@ -8,14 +8,14 @@ def reformat_languages(languages)
       language.each do |type,in_or_com|
         in_or_com.each do |data1, data2|
           new_hash[type] = { data1 => data2, :style => []} 
-        binding.pry
         end 
       end 
     end
     languages.each do |key,value|
         value.each do |key,value|
+          
           # p new_hash[key][:style]
-      # binding.pry
+      binding.pry
         # end 
       end 
     end 
