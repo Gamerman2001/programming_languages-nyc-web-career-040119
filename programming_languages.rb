@@ -12,12 +12,11 @@ def reformat_languages(languages)
       end 
     end
     languages.each do |object,language|
-        language do |type,in_or_com|
+        language.each do |type,in_or_com|
           
           # p new_hash[key][:style]
       binding.pry
-        # end 
-      end 
+        end 
     end 
     # binding.pry
     new_hash    
