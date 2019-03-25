@@ -1,5 +1,5 @@
 require 'pry'
-# new_hash = {}
+
 def reformat_languages(languages)
   # your code here
   
@@ -16,7 +16,7 @@ def reformat_languages(languages)
           new_hash[type][:style] << object
         end 
     end 
-    binding.pry
+
     new_hash    
   
   
