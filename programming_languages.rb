@@ -6,7 +6,7 @@ def reformat_languages(languages)
     new_hash = {} 
     languages.each do |object,language|
       language.each do |type,in_or_com|
-        new_hash[type] = value
+        # new_hash[type] = 
         binding.pry
       end 
     end
